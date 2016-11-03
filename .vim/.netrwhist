@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/tapeck/Documents/school/cs377/lab1/folder'
+let g:netrw_dirhist_2='/Users/tapeck/Documents/work/probable-engine/.git'
+let g:netrw_dirhist_3='/Users/tapeck/Documents/personal/frat_wizard_master_server/app/controllers'
+let g:netrw_dirhist_4='/Users/tapeck/Documents/school/cs326/Workshop4and5/.git'
+let g:netrw_dirhist_5='/Users/tapeck/Documents/work/probable-engine/public/assets'
