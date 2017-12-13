@@ -12,8 +12,6 @@ set backspace=2
 set mouse=a
 set hlsearch
 set incsearch
-set list
-set listchars=trail:ϱ
 vnoremap // y/<C-R>"<CR>
 
 " Put plugins and dictionaries in this dir (also on Windows)
@@ -58,10 +56,11 @@ Plugin 'L9'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Avoid a name conflict with L9
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'Yggdroot/indentLine'
 Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-sleuth'
 "Plugin 'vim-utils/vim-ruby-fold'
 Bundle 'vim-ruby/vim-ruby'
 "Plugin 'vim-scripts/AutoComplPop'
@@ -90,7 +89,7 @@ let g:ruby_fold_lines_limit = 200
 " syntastic config
 let g:syntastic_mode_map = { 'mode': 'active',
                             \ 'active_filetypes': ['python', 'javascript'],
-                            \ 'passive_filetypes': ['html'] }
+                            \ 'passive_filetypes': ['html', 'java'] }
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
