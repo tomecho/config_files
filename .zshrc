@@ -96,3 +96,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #. /usr/local/lib/python3.5/dist-packages/powerline/bindings/zsh/powerline.zsh
 eval $(thefuck --alias)
+
+# don't page if less than a full page
+export LESS="-FX $LESS"
