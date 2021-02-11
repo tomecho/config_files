@@ -100,3 +100,9 @@ eval $(thefuck --alias)
 alias gp="git push"
 alias gc="git commit -am"
 alias gs="git status"
+alias tf="terraform"
+
+function gcap() {
+ git commit -am "$1"
+ git push
+}
